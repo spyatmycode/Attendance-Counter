@@ -41,7 +41,7 @@ function save(){
 btns.forEach((btn)=>{
 
     btn.addEventListener("dblclick", ()=>{
-        alert('You Double Clicked')
+        alert('You cannot click more than ONCE!')
         decrement()
     })
     
